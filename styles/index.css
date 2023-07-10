@@ -1,0 +1,55 @@
+/* common styles */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+.description {
+   color: rgba(39, 39, 39, 0.60);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 25px;
+   padding: 20px 0;
+}
+
+.btn-common {
+   border: 0;
+   border-radius: 5px;
+   background: #E55473;
+   padding: 13px 25px;
+   color: white;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+/* header */
+header {
+   background: rgba(229, 84, 115, 0.10);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header-title-container {
+   margin-right: 50px;
+}
+.header-title-text {
+   color: #272727;
+   width: 500px;
+   font-size: 60px;
+   font-weight: 800;
+}
+.header-description {
+   width: 634px;
+}
+.header-img-container {
+   margin-top: 30px;
+   width: 435px;
+   height: 548px;
+   background: url('../images/pngwing_10.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
