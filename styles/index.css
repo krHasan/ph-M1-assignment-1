@@ -89,7 +89,7 @@ header {
    height: 347px;
    border-radius: 300px 300px 0px 0px;
    background-repeat: no-repeat;
-   background-size: 200px 276px;
+   background-size: 80% 80%;
    background-position: bottom;
    margin-bottom: 30px;
    margin-top: 30px;
@@ -147,15 +147,19 @@ header {
    text-align: center;
 }
 .insta-content {
+   min-width: 1050px;
+   width: 70%;
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
+   margin: auto;
 }
 .insta-content > div {
-   width: 250px;
+   width: 24%;
    height: 290px;
-   margin: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
    background-position: bottom;
    border: 0;
    border-radius: 3px;
@@ -176,11 +180,11 @@ header {
 
 /* subscribe */
 .subs-container {
+   min-width: 1050px;
    width: 70%;
    height: 449px;
    margin: auto;
    margin-top: 100px;
-   margin-bottom: 100px;
    background-image: url('../images/Rectangle_9.png');
    background-repeat: no-repeat;
    background-size: contain;
@@ -189,7 +193,7 @@ header {
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding-top: 100px;
+   padding-top: 4em;
 }
 .subs-entry {
    margin-top: 25px;
@@ -223,3 +227,26 @@ footer .description {
    color: rgba(255, 255, 255, 0.40);
 }
 
+
+/* recommendation */
+.reco-container {
+   display: flex;
+   justify-content: center;
+   background: rgba(229, 84, 115, 0.05);
+   margin-bottom: 100px;
+   padding: 50px 0;
+}
+.reco-title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto 70px;
+   margin-left: 0;
+}
+.reco-container input {
+   border: 1px solid gray;
+   border-radius: 5px;
+   padding: 13px 5px;
+   width: 400px;
+   margin-bottom: 20px;
+}
