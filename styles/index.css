@@ -17,10 +17,10 @@ body {
    border: 0;
    border-radius: 5px;
    background: #E55473;
-   padding: 13px 25px;
+   padding: 11px 25px;
    color: white;
-   font-size: 18px;
-   font-weight: 700;
+   font-size: 16px;
+   font-weight: 600;
 }
 .head-1 {
    color: #272727;
@@ -170,4 +170,32 @@ header {
 }
 .insta-content div:nth-child(4) {
    background-image: url('../images/Rectangle_6.png');
+}
+
+
+/* subscribe */
+.subs-container {
+   width: 70%;
+   height: 449px;
+   margin: auto;
+   margin-top: 100px;
+   background-image: url('../images/Rectangle_9.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.subs-title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 100px;
+}
+.subs-entry {
+   margin-top: 25px;
+}
+.subs-entry input {
+   border: 0;
+   border-radius: 5px;
+   padding: 13px 5px;
+   width: 450px;
+   margin-right: 5px;
 }
