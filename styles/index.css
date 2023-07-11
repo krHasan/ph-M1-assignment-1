@@ -110,10 +110,28 @@ header {
 
 
 /* deal */
+.deal-container {
+   display: flex;
+   justify-content: center;
+   background: rgba(229, 84, 115, 0.05);
+}
+.deal-title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto 70px;
+   margin-left: 0;
+}
+.deal-title p {
+   text-align: center;
+   width: 594px;
+}
 .deal-image {
-   width: 318px;
-   height: 420px;
+   width: 250px;
+   height: 330px;
    background-image: url('../images/pngwing_8.png');
+   background-size: cover;
+   margin: 70px 0;
 }
 
 
