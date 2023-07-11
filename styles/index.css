@@ -3,19 +3,16 @@
    margin: 0;
    padding: 0;
 }
-
 body {
    font-family: 'Lato', sans-serif;
 }
-
 .description {
    color: rgba(39, 39, 39, 0.60);
    font-size: 16px;
    font-weight: 400;
    line-height: 25px;
-   padding: 20px 0;
+   padding: 15px 0;
 }
-
 .btn-common {
    border: 0;
    border-radius: 5px;
@@ -25,6 +22,13 @@ body {
    font-size: 18px;
    font-weight: 700;
 }
+.head-1 {
+   color: #272727;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+}
+
 
 /* header */
 header {
@@ -42,8 +46,9 @@ header {
    font-size: 60px;
    font-weight: 800;
 }
-.header-description {
+.header-title-container .description {
    width: 634px;
+   padding: 20px 0;
 }
 .header-img-container {
    margin-top: 30px;
@@ -53,3 +58,62 @@ header {
    background-repeat: no-repeat;
    background-size: cover;
 }
+
+
+/* featured flowers */
+.featured-container {
+   display: block;
+   margin-top: 100px;
+}
+.featured-title .description {
+   width: 594px;
+   margin: auto;
+   text-align: center;
+}
+.featured-content {
+   display: flex;
+   justify-content: center;
+}
+.featured-content > div {
+   display: block;
+   text-align: center;
+}
+.featured-content > div a {
+   color: #272727;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration-line: underline;
+}
+.flower-holder {
+   width: 300px;
+   height: 347px;
+   border-radius: 300px 300px 0px 0px;
+   background-repeat: no-repeat;
+   background-size: 200px 276px;
+   background-position: bottom;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+.featured-content div:nth-child(1) .flower-holder {
+   background-color: rgba(167, 33, 98, 0.15);
+   background-image: url('../images/pngwing_6.png');
+}
+.featured-content div:nth-child(2) .flower-holder {
+   background-color: rgba(5, 151, 160, 0.15);
+   background-image: url('../images/pngwing_5.png');
+   margin: 30px 20px;
+}
+.featured-content div:nth-child(3) .flower-holder {
+   background-color: rgba(71, 125, 17, 0.15);
+   background-image: url('../images/pngwing_7.png');
+}
+
+
+/* deal */
+.deal-image {
+   width: 318px;
+   height: 420px;
+   background-image: url('../images/pngwing_8.png');
+}
+
+
