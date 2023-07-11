@@ -135,3 +135,39 @@ header {
 }
 
 
+/* Instagram */
+.insta-container {
+   display: block;
+   margin-top: 100px;
+}
+.insta-title .description {
+   width: 594px;
+   margin: auto;
+   text-align: center;
+}
+.insta-content {
+   display: flex;
+   justify-content: center;
+}
+.insta-content > div {
+   width: 250px;
+   height: 290px;
+   margin: 10px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   border: 0;
+   border-radius: 3px;
+}
+.insta-content div:nth-child(1) {
+   background-image: url('../images/Flower_01.png');
+}
+.insta-content div:nth-child(2) {
+   background-image: url('../images/Rectangle_4.png');
+}
+.insta-content div:nth-child(3) {
+   background-image: url('../images/Rectangle_5.png');
+}
+.insta-content div:nth-child(4) {
+   background-image: url('../images/Rectangle_6.png');
+}
